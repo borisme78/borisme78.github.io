@@ -1,0 +1,110 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1 {
+    text-align: center;
+    width: auto;
+    background-color: aquamarine;
+    font-size: 2em;
+    
+}
+
+h2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    border-radius: 8px;
+}
+html {
+    background-color: azure;
+    border-radius: 8px;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: antiquewhite;
+}
+
+section {
+    border-bottom:  1px solid #dddddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a.active {
+    background-color: #111111;
+    font-weight: bold;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+img {
+    float: left;
+    margin: 0 15px 10px 0;
+    max-width: 50%;
+    border: 3px solid #333333;
+    padding: 0%;
+    border-radius: 8px;
+}
+
+nav {
+    position: fixed;
+    max-width: 800px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section, p, img, h1, h2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    scroll-margin-top: 60px;
+}
+
+footer {
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
