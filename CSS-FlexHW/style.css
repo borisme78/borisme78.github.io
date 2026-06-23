@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #121212;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background: white;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #888888
+    
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #3b82f6;
+}
+
+.authen {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#login {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: black;
+    padding: 6px 10px;
+    cursor: pointer;
+
+}
+
+#signup {
+    background-color: #151e31;
+    border: 1px solid #151e31;
+    border-radius: 10%;
+    color: #f4f4f4;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.hero {
+   
+    background-color: #151e31;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    
+}
+
+.hero p {
+    color: #3f4a5c;
+}
+
+.btn-primary {
+    background-color: white;
+    border: 1px solid #444;
+    color: rgb(23, 22, 22);
+    border-radius: 8px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: white;
+    color: #121212;
+}
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 8px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    background-color: white;
+    color: #121212;
+}
+
+.courses {
+    background-color: white;
+    color: #0f172a;
+    text-align: center;
+    padding: 100px 20px;
+
+}
+.courses p {
+    color: #818ea1;
+}
+
+
+
+.box-container {
+    display: flex;      
+    flex-direction: row; 
+    gap: 20px;           
+    width: 100%;
+}
+.box1 {
+    background-color: white; 
+    color: #444;
+    padding: 28px;       
+    border-radius: 14px;  
+    text-align: center;
+    border-top: 3px solid #ef4444;
+    box-shadow: 0 5px 18px rgba(0,0 , 0, 0.08)
+}
+.box2 {
+    background-color: white; 
+    color: #444;
+    padding: 28px;       
+    border-radius: 14px;  
+    text-align: center;
+    border-top: 3px solid #3b82f6;
+    box-shadow: 0 5px 18px rgba(0,0 , 0, 0.08)
+}
+.box3 {
+    background-color: white; 
+    color: #444;
+    padding: 28px;       
+    border-radius: 14px;  
+    text-align: center;
+    border-top: 3px solid #10b981;
+    box-shadow: 0 5px 18px rgba(0,0 , 0, 0.08)
+}
+.left-text {
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bnt-explore {
+
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: small;
+    color: #5492f7;
+    border: none;
+    cursor: pointer;
+}
+
+.bnt-explore:hover {
+  transform: scale(1.1); 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e7eb;
+    background-color: white;
+    padding: 25px 0;
+    color: #a0adc0;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon a {
+    display: grid;
+    grid-auto-flow: column; /* Змушує елементи ставати в колонки одного рядка */
+    align-items: center;
+    cursor: pointer;
+}
