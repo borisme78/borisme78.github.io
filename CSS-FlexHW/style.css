@@ -11,6 +11,7 @@ body {
     align-items: center;
     padding: 20px 70px;
     background: white;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -113,10 +114,13 @@ nav a {
 .box-container {
     display: flex;      
     flex-direction: row; 
+    flex-wrap: wrap;
     gap: 20px;           
     width: 100%;
+    justify-content: space-around ;
 }
 .box1 {
+    width: 300px;
     background-color: white; 
     color: #444;
     padding: 28px;       
@@ -126,6 +130,7 @@ nav a {
     box-shadow: 0 5px 18px rgba(0,0 , 0, 0.08)
 }
 .box2 {
+    width: 300px;
     background-color: white; 
     color: #444;
     padding: 28px;       
@@ -135,6 +140,7 @@ nav a {
     box-shadow: 0 5px 18px rgba(0,0 , 0, 0.08)
 }
 .box3 {
+    width: 300px;
     background-color: white; 
     color: #444;
     padding: 28px;       
@@ -142,6 +148,7 @@ nav a {
     text-align: center;
     border-top: 3px solid #10b981;
     box-shadow: 0 5px 18px rgba(0,0 , 0, 0.08)
+
 }
 .left-text {
     text-align: left;
