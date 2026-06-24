@@ -1,22 +1,20 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    text-align: center;
-    width: auto;
-    background-color: #142a4a;
-    font-size: 2em;
-    
+  text-align: center;
+  width: auto;
+  background-color: #142a4a;
+  font-size: 2em;
 }
 
 h2 {
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    background-color: #142a4a;
-    border-radius: 8px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #142a4a;
+  border-radius: 8px;
 }
 /* html {
     background-color: azure;
@@ -33,37 +31,34 @@ body {
 
 /* Налаштування для всього екрана (тут ми ставимо картинку стадіону) */
 html {
-    background: linear-gradient(rgba(10, 25, 47, 0.6), rgba(10, 25, 47, 0.8)), 
-                url('https://unsplash.com') no-repeat center center fixed;
-    background-size: cover;
+  background:
+    linear-gradient(rgba(10, 25, 47, 0.6), rgba(10, 25, 47, 0.8)),
+    url("https://unsplash.com") no-repeat center center fixed;
+  background-size: cover;
 }
 
 /* Налаштування вашої центральної колонки з текстом */
 body {
-    width: 800px;
-    margin-top: 80px !important;
-    margin: 40px auto; /* 40px зверху та знизу, щоб сайт не прилипав до країв екрана */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Тонка сучасна рамка замість сірої */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Більш глибока та красива тінь */
-    
-    /* Робимо фон колонки темним та злегка прозорим (ефект скла) */
-    background-color: rgba(20, 30, 48, 0.9); 
-    
-    /* Робимо текст білим для ідеального контрасту на темному фоні */
-    color: #ffffff; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 30px; /* Внутрішні відступи, щоб текст не тулився до країв колонки */
-    border-radius: 8px; /* Легке заокруглення кутів вашого сайту */
+  width: 800px;
+  margin-top: 80px !important;
+  margin: 40px auto; /* 40px зверху та знизу, щоб сайт не прилипав до країв екрана */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Тонка сучасна рамка замість сірої */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Більш глибока та красива тінь */
+
+  /* Робимо фон колонки темним та злегка прозорим (ефект скла) */
+  background-color: rgba(20, 30, 48, 0.9);
+
+  /* Робимо текст білим для ідеального контрасту на темному фоні */
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px; /* Внутрішні відступи, щоб текст не тулився до країв колонки */
+  border-radius: 8px; /* Легке заокруглення кутів вашого сайту */
 }
 
-
-
-
-
 section {
-    border-bottom:  1px solid #dddddd;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -87,8 +82,8 @@ ul li a {
 }
 
 ul li a.active {
-    background-color: #142a4a;
-    font-weight: bold;
+  background-color: #142a4a;
+  font-weight: bold;
 }
 
 ul li a:hover {
@@ -96,12 +91,12 @@ ul li a:hover {
 }
 
 img {
-    float: left;
-    margin: 0 15px 10px 0;
-    max-width: 50%;
-    border: 3px solid #333333;
-    padding: 0%;
-    border-radius: 8px;
+  float: left;
+  margin: 0 15px 10px 0;
+  max-width: 50%;
+  border: 3px solid #333333;
+  padding: 0%;
+  border-radius: 8px;
 }
 
 /* nav {
@@ -113,35 +108,47 @@ img {
 } */
 
 nav {
-    width: 100%; /* Розтягується рівно на всі 800px вашого сайту */
-    background-color: #142a4a; /* Глибокий синій колір шапки */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    padding: 15px 0; /* Відступи всередині меню зверху та знизу */
-    text-align: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 800px;
+
+  background-color: #142a4a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  text-align: center;
+  z-index: 1000;
 }
 
-section, p, img, h1, h2 {
-    margin-left: 5px;
-    margin-right: 5px;
+section,
+p,
+img,
+h1,
+h2 {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 main {
-    margin-top: 60px;
-    padding: 20px;
+  margin-top: 60px;
+  padding: 20px;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-h1, h2 {
-    scroll-margin-top: 60px;
+h1,
+h2 {
+  scroll-margin-top: 60px;
 }
 
 footer {
-    background-color: #142a4a;
-    padding: 15px;
-    text-align: center;
-    margin-top: 20px;
+  background-color: #142a4a;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
 }
-
