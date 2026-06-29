@@ -1,0 +1,122 @@
+/* Загальні стилі */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Основний контейнер */
+body > div {
+  display: flex;
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Ліва панель */
+aside {
+  width: 300px;
+  background: linear-gradient(180deg, #1f4e79, #0f375c);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Фото */
+aside img {
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Ім'я */
+aside h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Username */
+aside p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Основний контент */
+main {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Секції */
+section {
+  margin-bottom: 35px;
+}
+
+/* Заголовки */
+section h3 {
+  font-size: 28px;
+  color: #1f4e79;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #2f75b5;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Списки */
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f8f9fa;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  border-left: 5px solid #2f75b5;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #dbeeff;
+  transform: translateX(8px);
+}
+
+/* Виділення тексту */
+strong {
+  color: #1f4e79;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  body > div {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  main {
+    padding: 25px;
+  }
+
+  aside h1 {
+    font-size: 26px;
+  }
+
+  section h3 {
+    font-size: 24px;
+  }
+}
