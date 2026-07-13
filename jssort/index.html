@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алгоритми сортування</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+
+    <h1 class="text-center mb-4">Алгоритми сортування</h1>
+
+    <div class="card shadow p-4">
+
+        <div class="mb-3">
+            <label for="numbers" class="form-label">
+                Введіть числа через кому
+            </label>
+
+            <input
+                type="text"
+                id="numbers"
+                class="form-control"
+                placeholder="10,5,7,2,1,9">
+        </div>
+
+        <div class="d-flex gap-2 flex-wrap">
+
+            <button id="bubbleBtn" class="btn btn-primary">
+                Bubble Sort
+            </button>
+
+            <button id="selectionBtn" class="btn btn-success">
+                Selection Sort
+            </button>
+
+            <button id="insertionBtn" class="btn btn-warning">
+                Insertion Sort
+            </button>
+
+        </div>
+
+        <hr>
+
+        <h4>Результат</h4>
+
+        <div id="result" class="alert alert-info">
+            Тут з'явиться відсортований масив
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
